@@ -1,0 +1,30 @@
+#recipe-image {
+  width: 100%;
+}
+#recipe-image img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 470px;
+}
+.yield-stack-detail {
+  padding: 0 10px;
+}
+.time-stack-item-detail {
+  padding: 0 10px;
+}
+.time-stack-item-detail:first-child {
+  color: #bdbdbd;
+}
+.time-stack {
+  margin-top: 15px;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) {
+  .time-stack {
+    flex-direction: column;
+  }
+  #recipe-info {
+    width: 20%;
+  }
+}

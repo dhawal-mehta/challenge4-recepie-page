@@ -1,0 +1,23 @@
+#recipe-header h1 {
+  font-size: 700;
+  font-family: "Playfair Display";
+}
+.recipe-header-desc div {
+  margin-top: 15px;
+}
+.recipe-header-desc div img {
+  position: relative;
+  top: -8px;
+}
+.recipe-header-desc p {
+  padding: 10px;
+  color: #4f4f4f;
+  font-size: 14px;
+  font-style: italic;
+}
+
+@media only screen and (min-width: 567px) {
+  .recipe-header-desc {
+    width: 50%;
+  }
+}
